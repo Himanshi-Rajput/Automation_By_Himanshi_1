@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch Testing">
+    <test name="Sanity Testing">
+        <classes>
+            <class name="TestCases.BTFile1"></class>
+            <class name="TestCases.BTFile2"></class>
+        </classes>    
+    </test>       
+</suite>
+       

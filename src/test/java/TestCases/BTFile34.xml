@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Batch Testing">
+    <test name="Functional Testing">
+        <classes>
+            <class name="TestCases.BTFile4"></class>
+            <class name="TestCases.BTFile3"></class>
+        </classes>
+    </test>
+</suite>

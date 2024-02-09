@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="TestCases.TestNGTC1Listeners"/>
+  </listeners>
+  <test thread-count="5" name="C:/Users/HimanshiRajput/IdeaProjects/Selenium(failed)">
+    <classes>
+      <class name="TestCases.TestNGSoftAssertion3">
+        <methods>
+          <include name="getResult"/>
+          <include name="demo3"/>
+          <include name="endtest"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- TestCases.TestNGSoftAssertion3 -->
+      <class name="TestCases.TestNGSoftAssertion4">
+        <methods>
+          <include name="getResult"/>
+          <include name="demo1"/>
+          <include name="demo3"/>
+          <include name="endtest"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- TestCases.TestNGSoftAssertion4 -->
+    </classes>
+  </test> <!-- C:/Users/HimanshiRajput/IdeaProjects/Selenium(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

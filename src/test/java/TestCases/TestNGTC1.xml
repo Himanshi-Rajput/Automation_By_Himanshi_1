@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="TestCases.TestNGTC1Listeners"/>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/Users/HimanshiRajput/IdeaProjects/Selenium">
+        <classes>
+            <class name="TestCases.TestNGSoftAssertion">
+                <methods>
+                    <exclude name="demo1"/>
+                    <exclude name="demo2"/>
+                    <include name="demo3"/>
+                </methods>
+            </class>
+            <class name="TestCases.TestNGSoftAssertion3">
+                <methods>
+                    <include name="demo3"/>
+                    <include name="demo2"/>
+                    <include name="demo1"/>
+                </methods>
+            </class>
+            <class name="TestCases.TestNGSoftAssertion4">
+                <methods>
+                    <include name="demo3"/>
+                    <include name="demo2"/>
+                    <include name="demo1"/>
+                </methods>
+            </class>
+            <class name="TestCases.TestNGTC1">
+                <methods>
+                    <include name="setup"/>
+                    <include name="login"/>
+                    <include name="close"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
